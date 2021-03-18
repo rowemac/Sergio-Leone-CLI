@@ -91,7 +91,7 @@ class CLI
         elsif input.to_i == 0
             puts ""
             puts ""
-            puts "  What's that now, partner? If you're gonna just bang on the keys like a loon, I suppose you can leave! GO ON GET!"
+            puts "  What's that now, partner? If you're gonna just bang on the keys like a loon, I suppose you can leave! GO ON, GET!"
             puts ""
             puts ""
         end

@@ -20,7 +20,7 @@ class Films
     end 
 
     def self.display_film_titles
-        self.all.each.with_index(1) { | film, index | puts "        #{index}. #{film.title}" }
+        self.all.each.with_index(1) { | film, index | puts "    #{index}. #{film.title}" }
     end
 
     def self.display_film_data(index)
