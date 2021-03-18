@@ -1,0 +1,10 @@
+#!/usr/bin/env ruby
+
+require_relative "../config/environment.rb"
+
+main_menu = CLI.new
+
+main_menu.run
+
+
+
