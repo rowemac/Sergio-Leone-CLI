@@ -1,7 +1,7 @@
 class API
 
-    def self.load_film_urls(film_urls)
-        film_urls.each do | url | 
+    def self.load_film_url(film_url)
+        film_url.each do | url | 
             http = Net::HTTP.new(url.host, url.port)
             http.use_ssl = true
             http.verify_mode = OpenSSL::SSL::VERIFY_NONE

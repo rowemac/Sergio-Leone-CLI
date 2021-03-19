@@ -110,7 +110,7 @@ class CLI
     URI("https://imdb-internet-movie-database-unofficial.p.rapidapi.com/film/duck%20you%20sucker") ] 
 
     def run
-        API.load_film_urls(FILM_URLS)
+        API.load_film_url(FILM_URLS)
         display_project_main_menu
         leone_bio
         list_of_films
