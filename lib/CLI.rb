@@ -88,7 +88,7 @@ class CLI
             puts ''
             puts ''
             puts ''
-        elsif input.to_i == 0
+        elsif input.to_i == 0 || input.match(/\d/)
             puts ""
             puts ""
             puts "  Hey there, buck-o! If you're gonna just bang around on the keys like a loon, I suppose you can leave! GO ON, GET!"
